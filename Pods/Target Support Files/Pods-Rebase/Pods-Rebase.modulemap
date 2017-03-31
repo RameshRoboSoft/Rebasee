@@ -1,0 +1,6 @@
+framework module Pods_Rebase {
+  umbrella header "Pods-Rebase-umbrella.h"
+
+  export *
+  module * { export * }
+}

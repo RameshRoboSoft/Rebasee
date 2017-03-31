@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    func rebase(){
 
+    func rebase(data: Data) {
+        _ = JSON(data: data)
     }
 }
 
