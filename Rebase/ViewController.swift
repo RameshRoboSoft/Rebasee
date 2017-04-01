@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Branch A changes
+
     }
     func rebase(){
        // Changes in Branch
+       // Branch A changes
     }
 }
 
